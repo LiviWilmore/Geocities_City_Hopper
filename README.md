@@ -44,21 +44,30 @@ Hoping the inbuilt instructions are clear but here is an overview!
    -Web Browser-
 
 ➤Drag and place the circle UI onto a flat surface and pinch to place - a computer will appear.
+
 ➤You can reset the position by pressing "Reset" under the small computer graphic to the right
+
 ➤Once placed, Pinch the "Random Cool Website" Button above the Computer to visit a random archived geocities website!
+
    NOTE:
-   Some websites may play music, have images missing, or be heavy to browse, causing spectacles to 
-   overheat faster than normal lens's.
+   
+   Some websites may play music, have images missing, or be heavy to browse, causing spectacles to overheat faster than normal lens's.
+   
 ➤You can click through inner-website hyper links by pinching on them, and scroll down/ up the website by pinching and dragging anywhere without a button
+
 ➤You can press the "Random Cool Website" Button as many times as you like and keep exploring!
 
 
   -Sticker Sheet-
 
 ➤You will also see a sticker sheet labeled "Neighbourhood Stickers!", you can drag and reposition this by pinching and dragging anywhere on the sheet that isn't a sticker
+
 ➤ Pinch on a sticker to select it, and then position the stickers on any surfaces around you.
+
 ➤ You can place as many stickers as you like, change designs by pressing on a different sticker, and layer them up!
+
 ➤ To delete all the stickers you have placed pinch the delete button to the left of the sticker sheet
+
 ➤ To deselect a sticker (so no sticker is attached to your cursor whilst navigating other areas of the lens) pinch the deselect button to the left of the sticker sheet.
 
 ---Scripts---
@@ -66,19 +75,25 @@ Hoping the inbuilt instructions are clear but here is an overview!
 Brief overview of the custom scripts in the lens:
 
 ➤OpeningMenuController
+
   Script for controlling the opening splash screen, Hiding the main content until after a timer.
 
 ➤RandomAudioController
+
   Script for playing randomised audio clips, when the Random Internet Button is pressed calling playRandom from an InteractableHelper on the Random Internet Button
 
 ➤RandomURLController
+
   Script to randomly select and visit a URL from a list hosted within the script via the WebView script on the WebPlane from an InteractableHelper on the Random Internet Button
 
 ➤ResetStickerBridge
+
   Bridge script so InteractableHelper can call into the WorldQuery TypeScript component to reset via a created resetSticker function
 
 ➤WorldQueryBridge
+
   Bridge script for InteractableHelper to connect to WorldQuery and select a value (sticker) from WorldQuery
 
 ➤WorldQuery
+
   An adapted WorldQuery script with additional functionality for blocking interactions while the Random Internet Button is being pressed.
