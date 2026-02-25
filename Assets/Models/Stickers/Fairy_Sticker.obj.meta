@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/f52e0dd1-2900-4c48-9057-c02a192b1741>
+  ImportedAssetIds:
+    21e87bc052fca3cb: !<reference> b51a5259-7599-44c6-b310-fe58ec434b2d
+    66780cf3a4dcb2b8: !<reference> a1071ebb-06c6-46cc-895d-29420af81ba1
+    Meshes/Fairy: !<reference> 2b0cf9ec-c115-491c-9d65-371311090140
+    Scene: !<reference> 50b3b44b-a355-4350-a1a2-f96fb01e86f1
+    cfb654e4e8a56845: !<reference> 849d4c1c-79d9-48a5-8285-13414a08bf38
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 50b3b44b-a355-4350-a1a2-f96fb01e86f1
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 7c62e6a0-bfe5-4feb-95d3-d633db7f8d75
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/7c62e6a0-bfe5-4feb-95d3-d633db7f8d75>
+  Prototype: !<ObjectOwner/f354f870-4807-4324-9c46-5e81e8f5c781>
+    PackagePath: ""
+    objects:
+      - !<own> a1071ebb-06c6-46cc-76a2-d6bdf507e45e
+- !<SceneObject/849d4c1c-79d9-48a5-7d7a-ecbeb5f740c7>
+  PrefabRemaps:
+    []
+  Name: Fairy
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b51a5259-7599-44c6-4cef-01a713bcb4d2
+- !<SceneObject/a1071ebb-06c6-46cc-76a2-d6bdf507e45e>
+  PrefabRemaps:
+    []
+  Name: Fairy_Sticker
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 849d4c1c-79d9-48a5-7d7a-ecbeb5f740c7
+  Components:
+    []
+- !<RenderMeshVisual/b51a5259-7599-44c6-4cef-01a713bcb4d2>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 2b0cf9ec-c115-491c-9d65-371311090140
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

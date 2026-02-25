@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/81b40929-ed93-4934-ba0c-17ce5ae9ef49>
+  ImportedAssetIds:
+    66780cf3a4dcb2b8: !<reference> 43565615-fbbc-45b6-b361-893b6b9bb98e
+    Meshes/Frog: !<reference> 1a7b1cfd-ef2c-45e1-9b6e-eadee4ec8e9c
+    Scene: !<reference> 3e03a718-26a8-4844-8b36-73a3cb559bb8
+    a6ed03cc9276a5ca: !<reference> cc1260b3-52eb-464b-903f-d2fd29cb45ff
+    fbcbb4e02ce1ea30: !<reference> 82ab8bc5-cf40-4a97-819b-5e9dd2cf4684
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 3e03a718-26a8-4844-8b36-73a3cb559bb8
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 43bae583-9cd2-4aa5-a6e9-4eee54f24b35
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/43565615-fbbc-45b6-4c9e-76c494644671>
+  PrefabRemaps:
+    []
+  Name: Frog_Sticker
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 82ab8bc5-cf40-4a97-7e64-a1622d30b97b
+  Components:
+    []
+- !<ObjectPrefabAssetData/43bae583-9cd2-4aa5-a6e9-4eee54f24b35>
+  Prototype: !<ObjectOwner/fcfdc078-fff5-4983-8f7a-34d7527ee40b>
+    PackagePath: ""
+    objects:
+      - !<own> 43565615-fbbc-45b6-4c9e-76c494644671
+- !<SceneObject/82ab8bc5-cf40-4a97-7e64-a1622d30b97b>
+  PrefabRemaps:
+    []
+  Name: Frog
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cc1260b3-52eb-464b-6fc0-2d02d634ba00
+- !<RenderMeshVisual/cc1260b3-52eb-464b-6fc0-2d02d634ba00>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 1a7b1cfd-ef2c-45e1-9b6e-eadee4ec8e9c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/b14f6361-30ef-4a7c-ad59-8946810b2795>
+  ImportedAssetIds:
+    3487c28e7324c0cf: !<reference> 381de76e-1379-4336-a4d8-a48be779d1d7
+    36041426dc6cb610: !<reference> 73f62dce-0d3b-4a84-98d2-24609111d32c
+    66780cf3a4dcb2b8: !<reference> a5423511-c2cf-4435-8e3a-5df81a0412d3
+    Meshes/Alien: !<reference> 9ed1ce94-f597-493b-909d-f2d2cbe32d27
+    Scene: !<reference> fe6aaea4-f8a9-4096-bd85-2d7e037677a2
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> fe6aaea4-f8a9-4096-bd85-2d7e037677a2
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> fad3cb39-0232-413b-9b5d-e313ccbfc359
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/381de76e-1379-4336-5b27-5b7418862e28>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 9ed1ce94-f597-493b-909d-f2d2cbe32d27
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/73f62dce-0d3b-4a84-672d-db9f6eee2cd3>
+  PrefabRemaps:
+    []
+  Name: Alien
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 381de76e-1379-4336-5b27-5b7418862e28
+- !<SceneObject/a5423511-c2cf-4435-71c5-a207e5fbed2c>
+  PrefabRemaps:
+    []
+  Name: Alien_Sticker
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 73f62dce-0d3b-4a84-672d-db9f6eee2cd3
+  Components:
+    []
+- !<ObjectPrefabAssetData/fad3cb39-0232-413b-9b5d-e313ccbfc359>
+  Prototype: !<ObjectOwner/d6871fe6-dcbc-41ee-b7a6-9af49a6fc9cc>
+    PackagePath: ""
+    objects:
+      - !<own> a5423511-c2cf-4435-71c5-a207e5fbed2c

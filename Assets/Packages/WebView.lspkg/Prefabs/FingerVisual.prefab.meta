@@ -1,0 +1,87 @@
+- !<AssetImportMetadata/1e978da4-c6a3-5cad-fb8c-9efccf07f06e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 9c1b58be-a037-4699-b84f-b5efe1a4e7d2
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 9c1b58be-a037-4699-b84f-b5efe1a4e7d2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> a47df06c-3f32-41ca-bafe-3e3a58d4be23
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/29afb995-0646-4cbf-408d-70ccd1de6314>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 08a34f97-d28a-4460-bfbc-9722e131913d
+  Mesh: !<reference> 5dcc4910-abe3-4de1-9adb-e385a2a905f8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/3a516cc6-8aba-4438-6127-680f7941cf9c>
+  PrefabRemaps:
+    []
+  Name: PokeVisualHandler
+  Enabled: true
+  ScriptAsset: !<reference> 83ba0479-61c9-4d55-95d4-96a6a26ffb5c
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/50ab4cc6-3b82-464b-59cd-75f7f7c5da86>
+  PrefabRemaps:
+    []
+  Name: Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 90.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 29afb995-0646-4cbf-408d-70ccd1de6314
+- !<SceneObject/84455a2b-18dc-4133-7d51-da2f6be2bf01>
+  PrefabRemaps:
+    []
+  Name: FingerVisual
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 50ab4cc6-3b82-464b-59cd-75f7f7c5da86
+  Components:
+    - !<own> 3a516cc6-8aba-4438-6127-680f7941cf9c
+- !<ObjectPrefabAssetData/a47df06c-3f32-41ca-bafe-3e3a58d4be23>
+  Prototype: !<ObjectOwner/3b2f2428-f5db-4c31-a9c5-541e6daf5abb>
+    PackagePath: ""
+    objects:
+      - !<own> 84455a2b-18dc-4133-7d51-da2f6be2bf01

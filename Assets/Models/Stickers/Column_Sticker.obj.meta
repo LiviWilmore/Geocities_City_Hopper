@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/969af7fd-1452-4f11-9a65-8eaffbfaa3ba>
+  ImportedAssetIds:
+    0a6cadc90f93da0a: !<reference> 7daeb4c2-6660-42e1-85ad-c93e1ba0fc16
+    318fe9b19a238d08: !<reference> abdea8ae-11fd-4359-bef9-513208a56e74
+    66780cf3a4dcb2b8: !<reference> 75316efa-9b70-4e61-8a16-4e03eaf84602
+    Meshes/Column: !<reference> 061763b7-932a-449e-be84-39fb562aea01
+    Scene: !<reference> 74ddcdc7-4c3e-4cf2-8957-121501772462
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> 74ddcdc7-4c3e-4cf2-8957-121501772462
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 7d619f01-d31d-4a8e-9125-8bce3113af8f
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/75316efa-9b70-4e61-75e9-b1fc1507b9fd>
+  PrefabRemaps:
+    []
+  Name: Column_Sticker
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7daeb4c2-6660-42e1-7a52-36c1e45f03e9
+  Components:
+    []
+- !<ObjectPrefabAssetData/7d619f01-d31d-4a8e-9125-8bce3113af8f>
+  Prototype: !<ObjectOwner/b30d4414-67a0-4de8-81f8-02a972e9e0a1>
+    PackagePath: ""
+    objects:
+      - !<own> 75316efa-9b70-4e61-75e9-b1fc1507b9fd
+- !<SceneObject/7daeb4c2-6660-42e1-7a52-36c1e45f03e9>
+  PrefabRemaps:
+    []
+  Name: Column
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> abdea8ae-11fd-4359-4106-aecdf75a918b
+- !<RenderMeshVisual/abdea8ae-11fd-4359-4106-aecdf75a918b>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 061763b7-932a-449e-be84-39fb562aea01
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

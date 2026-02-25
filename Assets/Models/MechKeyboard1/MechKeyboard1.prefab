@@ -1,0 +1,80 @@
+- !<ObjectPrefab/dddccf08-d818-4575-9cd5-1f9602019620>
+  PackagePath: ""
+  objects:
+    - !<own> 49fc9a0a-f38d-4bbc-9d1b-a69fefb34cdf
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/0750e3d9-5ce5-4d27-8fe4-be0c243df46c>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 28b64c30-04ce-4c07-9c21-91712457e72e
+  Mesh: !<reference> e5606625-d245-4320-bf69-4324855ce7b8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/37b41e7b-b0cc-46b3-8279-ca92b355afeb>
+  PrefabRemaps:
+    []
+  Name: MechKeyboard_01
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 93e24735-db84-4d7f-8914-97870c809e6d
+    - !<own> 0750e3d9-5ce5-4d27-8fe4-be0c243df46c
+- !<SceneObject/49fc9a0a-f38d-4bbc-9d1b-a69fefb34cdf>
+  PrefabRemaps:
+    - 0750e3d9-5ce5-4d27-8fe4-be0c243df46c: 0750e3d9-5ce5-4d27-701b-41f3dbc20b93
+    - 37b41e7b-b0cc-46b3-8279-ca92b355afeb: 37b41e7b-b0cc-46b3-7d86-356d4caa5014
+    - 49fc9a0a-f38d-4bbc-9d1b-a69fefb34cdf: 49fc9a0a-f38d-4bbc-62e4-5960104cb320
+    - 93e24735-db84-4d7f-8914-97870c809e6d: 93e24735-db84-4d7f-76eb-6878f37f6192
+  Name: MechKeyboard1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 37b41e7b-b0cc-46b3-8279-ca92b355afeb
+  Components:
+    []
+- !<RenderMeshVisual/93e24735-db84-4d7f-8914-97870c809e6d>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4d93281d-de9d-42a8-8124-06aeeb5b2ddf
+  Mesh: !<reference> 9fa8053c-adcb-4ee6-ab45-b3c36d68b104
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

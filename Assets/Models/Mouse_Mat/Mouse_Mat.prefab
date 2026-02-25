@@ -1,0 +1,58 @@
+- !<ObjectPrefab/1b606896-54bb-41ad-9755-9f9327a7ebac>
+  PackagePath: ""
+  objects:
+    - !<own> ff872a80-cc15-4537-be28-4baf2776d6b9
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/2ca2ba40-59cc-4198-9714-7c263e0421c8>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c4037a59-3db1-48c6-8d8c-3bf77633d960
+  Mesh: !<reference> 1acc3923-f5b4-4914-8484-20823292711a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c8fd1765-0247-4b35-b8d4-111c7bd5a8e6>
+  PrefabRemaps:
+    []
+  Name: Internet_Mouse_Mat
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ca2ba40-59cc-4198-9714-7c263e0421c8
+- !<SceneObject/ff872a80-cc15-4537-be28-4baf2776d6b9>
+  PrefabRemaps:
+    - 2ca2ba40-59cc-4198-9714-7c263e0421c8: 2ca2ba40-59cc-4198-68eb-83d9c1fbde37
+    - c8fd1765-0247-4b35-b8d4-111c7bd5a8e6: c8fd1765-0247-4b35-472b-eee3842a5719
+    - ff872a80-cc15-4537-be28-4baf2776d6b9: ff872a80-cc15-4537-41d7-b450d8892946
+  Name: Mouse_Mat
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c8fd1765-0247-4b35-b8d4-111c7bd5a8e6
+  Components:
+    []

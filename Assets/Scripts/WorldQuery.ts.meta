@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/d3af9605-2352-4f23-bea1-a002638eb388>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> dcb86616-9bfb-4fe3-9ce7-f2488df50db4
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> dcb86616-9bfb-4fe3-9ce7-f2488df50db4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 06a389d6-34f7-4a37-a3d8-519b5d4a7cad
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/06a389d6-34f7-4a37-a3d8-519b5d4a7cad>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: dbf53955-abb1-4c14-9d03-3b90106bc3ae
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    blockingInteractions: false
+    filterEnabled: false
+    indexToSpawn: false
+    objectsToSpawn: false
+    placeComputerObject: false
+    placeStickerAudio: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - indexToSpawn: !<float> 0.000000
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectsToSpawn: !<reference.SceneObject[]>
+        []
+      filterEnabled: false
+      blockingInteractions: !<reference.InteractionComponent[]>
+        []
+      placeStickerAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      placeComputerObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input float indexToSpawn
+    - // @input SceneObject targetObject
+    - "// @input SceneObject[] objectsToSpawn"
+    - // @input bool filterEnabled = true
+    - "// @input Component.InteractionComponent[] blockingInteractions = {}"
+    - // @input Component.AudioComponent placeStickerAudio
+    - // @input SceneObject placeComputerObject

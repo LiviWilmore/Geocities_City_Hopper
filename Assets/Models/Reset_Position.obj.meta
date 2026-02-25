@@ -1,0 +1,86 @@
+- !<AssetImportMetadata/38bd89a6-faec-484c-a974-0fac292efa15>
+  ImportedAssetIds:
+    0aa13a7c5a74a893: !<reference> 85828e0f-932d-4c87-91da-85bc51106dad
+    3dfb3a604bd893bd: !<reference> fbabb3f0-56de-4275-a96f-08cdc6d4b3a8
+    66780cf3a4dcb2b8: !<reference> 6249db2b-51de-4f92-8bf6-407d3560fc41
+    Meshes/polySurface3 Reset_Button: !<reference> 3c2738c8-2766-4dc4-b240-ef47cb9f7f47
+    Scene: !<reference> b408e5f7-917a-4b3b-b615-ff1eaf53afc8
+  ImporterName: ObjImporter
+  PrimaryAsset: !<reference> b408e5f7-917a-4b3b-b615-ff1eaf53afc8
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 76a75976-8c19-4a3c-8859-90ca7c876181
+  DependentFiles:
+    []
+  ImporterSettings: !<D3FileImporterSettingsBase>
+    UseLegacyImporter: false
+    WithMaterials: false
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/6249db2b-51de-4f92-7409-bf82ca9f03be>
+  PrefabRemaps:
+    []
+  Name: Reset_Position
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 85828e0f-932d-4c87-6e25-7a43aeef9252
+  Components:
+    []
+- !<ObjectPrefabAssetData/76a75976-8c19-4a3c-8859-90ca7c876181>
+  Prototype: !<ObjectOwner/2df5c038-6663-4e4a-8d2c-3f47ced7008d>
+    PackagePath: ""
+    objects:
+      - !<own> 6249db2b-51de-4f92-7409-bf82ca9f03be
+- !<SceneObject/85828e0f-932d-4c87-6e25-7a43aeef9252>
+  PrefabRemaps:
+    []
+  Name: polySurface3 Reset_Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fbabb3f0-56de-4275-5690-f732392b4c57
+- !<RenderMeshVisual/fbabb3f0-56de-4275-5690-f732392b4c57>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 3c2738c8-2766-4dc4-b240-ef47cb9f7f47
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

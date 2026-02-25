@@ -1,0 +1,637 @@
+- !<ObjectPrefab/ec39605d-8262-44fa-a53e-985e3cb96697>
+  PackagePath: ""
+  objects:
+    - !<own> 15eed176-0235-4e64-a502-2137ee3d3f61
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/15eed176-0235-4e64-a502-2137ee3d3f61>
+  PrefabRemaps:
+    - 15eed176-0235-4e64-a502-2137ee3d3f61: 15eed176-0235-4e64-5afd-dec811c2c09e
+    - 39c76633-6022-422a-81f9-46567f0c2dba: 39c76633-6022-422a-7e06-b9a980f3d245
+    - 3c5077a4-a298-4bb5-8a28-8f278b97a100: be0ae9b9-9394-488d-abf5-a485cafafc11
+    - 4485252c-d8fd-4134-84cb-fe953310537d: cafa7f08-a7dd-4003-9f7b-296202259328
+    - 64b203cb-32e9-4245-b5a4-90285a123f85: bde7abff-2462-4321-9e43-b5bbb5bf460d
+    - 68c43999-2e42-457d-85df-a1a99c2ad725: 68c43999-2e42-457d-7a20-5e5663d528da
+    - 90057977-a572-4972-b45a-8b1471772b3e: cf4d6c99-d02c-4529-9bc6-3baab24c219f
+    - 9e5f6f1c-254d-46dd-a53e-d14fb53f22e3: 8da17a0e-a9c4-43b0-bc23-75a24f339257
+    - 9efdc74e-2bc5-408d-8737-2c0381591ac3: a8a1e785-0dca-499c-990a-9151e0bb8099
+    - e09f99b3-d471-425e-8e7e-02d9d34e8283: e09f99b3-d471-425e-7181-fd262cb17d7c
+    - e20eb697-279b-4aba-a60b-e4f90ce0220d: 12f3a5a8-f00f-44ff-9622-617c81f8fbd2
+    - fb273846-14e6-4a4c-9f53-d9f930a0172f: fb273846-14e6-4a4c-60ac-2606cf5fe8d0
+    - fe34f6aa-129f-425b-a0e4-d836a7c83587: fe34f6aa-129f-425b-5f1b-27c95837ca78
+  Name: Bk
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9efdc74e-2bc5-408d-8737-2c0381591ac3
+    - !<own> 68c43999-2e42-457d-85df-a1a99c2ad725
+  Components:
+    - !<own> 4485252c-d8fd-4134-84cb-fe953310537d
+    - !<own> 3c5077a4-a298-4bb5-8a28-8f278b97a100
+    - !<own> 9e5f6f1c-254d-46dd-a53e-d14fb53f22e3
+    - !<own> 64b203cb-32e9-4245-b5a4-90285a123f85
+    - !<own> 90057977-a572-4972-b45a-8b1471772b3e
+- !<RenderMeshVisual/39c76633-6022-422a-81f9-46567f0c2dba>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 400
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 436d448f-e036-408f-aa0b-0b9096c7c85d
+  Mesh: !<reference> 85a2c74d-c402-41c2-b6e8-6f3130de8475
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/3c5077a4-a298-4bb5-8a28-8f278b97a100>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 3.500000, y: 1.000000, z: 2.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ScriptComponent/4485252c-d8fd-4134-84cb-fe953310537d>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    targetingVisual: true
+    ignoreInteractionPlane: true
+    keepHoverOnTrigger: true
+    enableInstantDrag: true
+    isScrollable: true
+    allowMultipleInteractors: true
+    enablePokeDirectionality: true
+    acceptableXDirections: true
+    acceptableYDirections: true
+    acceptableZDirections: true
+    useFilteredPinch: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      targetingVisual: !<float> 1.000000
+      ignoreInteractionPlane: false
+      keepHoverOnTrigger: false
+      enableInstantDrag: false
+      isScrollable: false
+      allowMultipleInteractors: true
+      enablePokeDirectionality: false
+      acceptableXDirections: !<float> 0.000000
+      acceptableYDirections: !<float> 0.000000
+      acceptableZDirections: !<float> 1.000000
+      useFilteredPinch: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/64b203cb-32e9-4245-b5a4-90285a123f85>
+  PrefabRemaps:
+    []
+  Name: InteractableAudioFeedback
+  Enabled: true
+  ScriptAsset: !<reference> 1ad7da86-2c32-418c-bdf1-b7150c07c912
+  ScriptInputsDefault:
+    _playAudioOnHover: true
+    _hoverAudioTrack: true
+    _playAudioOnTriggerStart: true
+    _triggerStartAudioTrack: true
+    _playAudioOnTriggerEnd: true
+    _triggerEndAudioTrack: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      _playAudioOnHover: false
+      _hoverAudioTrack: !<reference.AudioTrackAsset> 97bf97ae-b2da-47d7-bde6-003f597fe888
+      _playAudioOnTriggerStart: true
+      _triggerStartAudioTrack: !<reference.AudioTrackAsset> edad7d53-55da-40b1-9025-fad0e7207862
+      _playAudioOnTriggerEnd: true
+      _triggerEndAudioTrack: !<reference.AudioTrackAsset> 82028831-1631-4d7b-b548-ff6be4e0a2ba
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/68c43999-2e42-457d-85df-a1a99c2ad725>
+  PrefabRemaps:
+    []
+  Name: polySurface47 Reset_Button
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.133767, z: 0.746000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.522386, y: 0.522386, z: 0.522386}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fe34f6aa-129f-425b-a0e4-d836a7c83587
+    - !<own> e09f99b3-d471-425e-8e7e-02d9d34e8283
+  Components:
+    []
+- !<ScriptComponent/90057977-a572-4972-b45a-8b1471772b3e>
+  PrefabRemaps:
+    []
+  Name: ResetStickerBridge
+  Enabled: true
+  ScriptAsset: !<reference> e7120d5b-8c00-49cc-bbb9-8ff06c333f0f
+  ScriptInputsDefault:
+    newWorldQueryScript: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      newWorldQueryScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/9e5f6f1c-254d-46dd-a53e-d14fb53f22e3>
+  PrefabRemaps:
+    []
+  Name: InteractableHelper
+  Enabled: true
+  ScriptAsset: !<reference> 88517298-96b6-4393-a3ce-57aad29969df
+  ScriptInputsDefault:
+    onPinchUp_Select: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      onHoverEnter:
+        - sceneObject: !<reference.SceneObject> 15eed176-0235-4e64-a502-2137ee3d3f61
+          eventResponseType: !<float> 3.000000
+          state: !<float> 0.000000
+          delay: !<float> 0.000000
+          animations:
+            - animationType: !<float> 2.000000
+              playOption: !<float> 0.000000
+              endVal: !<Vec3> {x: 4.550000, y: 4.550000, z: 4.550000}
+              startValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              endValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              a: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              b: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              animationDurationInSeconds: 0.300000
+              delay: !<float> 0.000000
+              easingData:
+                easing: !<float> 6.000000
+              doOnStart: false
+              onStartAction:
+                actionType: !<float> -1.000000
+                script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+                functionName: ""
+                targetObjects:
+                  []
+              doOnComplete: false
+              onCompleteAction:
+                actionType: !<float> -1.000000
+                script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+                functionName: ""
+                targetObjects:
+                  []
+          customAnimationData:
+            iterateThroughAllClips: true
+            animationName: ""
+          materialProperyData:
+            propertyName: ""
+            valueType: !<float> 0.000000
+            startFloatValue: !<float> 0.000000
+            startVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+            startVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            endFloatValue: !<float> 0.000000
+            endVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+            endVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          colorProperyData:
+            endColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+          functionName: ""
+          blendShapeData:
+            blenshapeName: ""
+            playOption: !<float> 0.000000
+            endVal: !<float> 0.000000
+            startValue: !<float> 0.000000
+            endValue: !<float> 0.000000
+            a: !<float> 0.000000
+            b: !<float> 0.000000
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          audioControl:
+            audioControlBehavior: !<float> 0.000000
+            delay: !<float> 0.000000
+          videoTextureControl:
+            videoTextureControlBehavior: !<float> 0.000000
+            delay: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+      onHoverExit:
+        - sceneObject: !<reference.SceneObject> 15eed176-0235-4e64-a502-2137ee3d3f61
+          eventResponseType: !<float> 3.000000
+          state: !<float> 0.000000
+          delay: !<float> 0.000000
+          animations:
+            - animationType: !<float> 2.000000
+              playOption: !<float> 0.000000
+              endVal: !<Vec3> {x: 4.500000, y: 4.500000, z: 4.500000}
+              startValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              endValue: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              a: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              b: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+              animationDurationInSeconds: 0.500000
+              delay: !<float> 0.000000
+              easingData:
+                easing: !<float> 6.000000
+              doOnStart: false
+              onStartAction:
+                actionType: !<float> -1.000000
+                script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+                functionName: ""
+                targetObjects:
+                  []
+              doOnComplete: false
+              onCompleteAction:
+                actionType: !<float> -1.000000
+                script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+                functionName: ""
+                targetObjects:
+                  []
+          customAnimationData:
+            iterateThroughAllClips: true
+            animationName: ""
+          materialProperyData:
+            propertyName: ""
+            valueType: !<float> 0.000000
+            startFloatValue: !<float> 0.000000
+            startVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+            startVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            endFloatValue: !<float> 0.000000
+            endVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+            endVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          colorProperyData:
+            endColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+          functionName: ""
+          blendShapeData:
+            blenshapeName: ""
+            playOption: !<float> 0.000000
+            endVal: !<float> 0.000000
+            startValue: !<float> 0.000000
+            endValue: !<float> 0.000000
+            a: !<float> 0.000000
+            b: !<float> 0.000000
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          audioControl:
+            audioControlBehavior: !<float> 0.000000
+            delay: !<float> 0.000000
+          videoTextureControl:
+            videoTextureControlBehavior: !<float> 0.000000
+            delay: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+      onPinchDown:
+        - sceneObject: !<reference.SceneObject> 15eed176-0235-4e64-a502-2137ee3d3f61
+          eventResponseType: !<float> 7.000000
+          state: !<float> 0.000000
+          delay: !<float> 0.000000
+          animations:
+            []
+          customAnimationData:
+            iterateThroughAllClips: true
+            animationName: ""
+          materialProperyData:
+            propertyName: ""
+            valueType: !<float> 0.000000
+            startFloatValue: !<float> 0.000000
+            startVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+            startVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            endFloatValue: !<float> 0.000000
+            endVec3Value: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+            endVec4Value: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          colorProperyData:
+            endColor: !<Vec4> {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          script: !<reference.ScriptComponent> 90057977-a572-4972-b45a-8b1471772b3e
+          functionName: resetStickers
+          blendShapeData:
+            blenshapeName: ""
+            playOption: !<float> 0.000000
+            endVal: !<float> 0.000000
+            startValue: !<float> 0.000000
+            endValue: !<float> 0.000000
+            a: !<float> 0.000000
+            b: !<float> 0.000000
+            animationDurationInSeconds: !<float> 1.000000
+            delay: !<float> 0.000000
+            easingData:
+              easing: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+          audioControl:
+            audioControlBehavior: !<float> 0.000000
+            delay: !<float> 0.000000
+          videoTextureControl:
+            videoTextureControlBehavior: !<float> 0.000000
+            delay: !<float> 0.000000
+            doOnStart: false
+            onStartAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+            doOnComplete: false
+            onCompleteAction:
+              actionType: !<float> -1.000000
+              script: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+              functionName: ""
+              targetObjects:
+                []
+      onPinchUp_Select:
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/9efdc74e-2bc5-408d-8737-2c0381591ac3>
+  PrefabRemaps:
+    []
+  Name: Reset
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.202857, y: -0.219181, z: 1.179064}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e20eb697-279b-4aba-a60b-e4f90ce0220d
+- !<SceneObject/e09f99b3-d471-425e-8e7e-02d9d34e8283>
+  PrefabRemaps:
+    []
+  Name: polySurface47 Reset_Button_2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fb273846-14e6-4a4c-9f53-d9f930a0172f
+- !<RenderMeshVisual/e20eb697-279b-4aba-a60b-e4f90ce0220d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb298395-289e-4775-9b74-0ccc31353677
+  Mesh: !<reference> 30134103-e1c7-45aa-a4a3-47fcbda1d261
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fb273846-14e6-4a4c-9f53-d9f930a0172f>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 400
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c8d74dda-bed0-48fe-853b-bd7eb0f70f5b
+  Mesh: !<reference> 71e405b9-38a5-4875-a270-440e4c39b6e8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fe34f6aa-129f-425b-a0e4-d836a7c83587>
+  PrefabRemaps:
+    []
+  Name: polySurface47 Reset_Button_1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.970578, y: 0.893294, z: 0.893294}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39c76633-6022-422a-81f9-46567f0c2dba
