@@ -20,6 +20,8 @@ In Project Settings → General → API Settings:
 In Project Settings → Platform Settings → Spectacles:
 ✔ Made for Spectacles – ON
 
+✔Lens requires internet so ensure Spectacles are connected
+
 ---Dependancies---
 
 All dependency packages are packaged within the project, but incase of error, from the Asset Store
