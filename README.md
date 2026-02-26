@@ -1,10 +1,10 @@
-GEOCITIES CITY HOPPER!
+GEOC CITY HOPPER!
 
 Created by Livi Wilmore
 
 February 2026
 
-Welcome to Geocities: City Hopper, a Spectacles Lens allowing users to jump back in time and explore archived GeoCities website, archived by Restorativland while reflecting on online nostalgia, and what it means to have a home online. Users can also customise their surroundings with stickers of retro images, inspired by the different neighbourhoods of Geocities. Enjoy!
+Welcome to Geo City Hopper, a Spectacles Lens allowing users to jump back in time and explore archived GeoCities website, archived by Restorativland while reflecting on online nostalgia, and what it means to have a home online. Users can also customise their surroundings with stickers of retro images, inspired by the different neighbourhoods of Geocities. Enjoy!
 
 ---Running---
 
