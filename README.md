@@ -1,4 +1,4 @@
-GEOC CITY HOPPER!
+GEO CITY HOPPER!
 
 Created by Livi Wilmore
 
